@@ -1,0 +1,83 @@
+:root {
+    --yellow: hsl(41, 98%, 54%);
+    --celadon: hsl(183, 100%, 23%);
+    --light: hsl(0, 0%, 95%);
+    --white: hsl(0, 0%, 100%);
+    --dark: hsl(0, 0%, 15%);
+    --black: hsl(0, 0%, 0%);
+
+    --yellow-h: 41;
+    --yellow-s: 98%;
+    --yellow-l: 54%;
+
+    --white-h: 0;
+    --white-s: 0%;
+    --white-l: 100%;
+
+    --ff-body: "Inter", sans-serif;
+    --ff-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.ff-body {
+    font-family: var(--ff-body);
+}
+
+.ff-system {
+    font-family: var(--ff-system);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+.dark {
+    color: var(--dark);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.celadon {
+    color: var(--celadon);
+}
+
+.bg-celadon {
+    background-color: var(--celadon);
+    color: var(--white);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-white {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.black {
+    color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.light {
+    color: var(--light);
+}
+
+.bg-light {
+    background-color: var(--light);
+    color: var(--dark);
+}

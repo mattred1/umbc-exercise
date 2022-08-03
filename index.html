@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UMBC: University of Maryland, Baltimore County</title>
+    <meta name="description" content="UMBC is a dynamic public research university that redefines excellence in higher education, offering in-demand programs, and a community of support.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets\imgs\umbc-shield-logo.png">
+
+    <!-- Fonts -->
+    <link href="assets\css\inter.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font Awesome script -->
+    <!-- <script src="https://kit.fontawesome.com/6a002836fd.js" crossorigin="anonymous"></script> -->
+
+    <!-- Lucky Orange for heat map tracking -->
+    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=8b4b9bd2"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bg-black">
+
+            <div class="row py-2 px-1 px-md-3">
+
+
+
+                <div class="above-nav col-lg-2 col-xl-2 d-none d-lg-inline-block">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/umbcpage" class="nav-link" aria-label="UMBC Facebook">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewbox="0 0 1024 1024" role="img" aria-label="Facebook">
+                                    <path fill="var(--yellow)" d="M512,0C229.3,0,0,230.5,0,515c0,257.1,187.1,470.1,432,508.7V664.1H302V515.2h130V401.7	c0-129,76.3-200.4,193.4-200.4c56,0,114.6,10.1,114.6,10.1v126.8h-64.5c-63.6,0-83.5,39.7-83.5,80.4v96.7h142l-22.7,148.9H592V1024	c244.9-38.7,432-251.7,432-508.9C1024,230.7,794.7,0,512,0z"></path>
+                                </svg> </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/umbc" class="nav-link" aria-label="UMBC Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Twitter">
+                                    <path fill="var(--yellow)" d="m516.3 0c-285-.6-516 227.4-516.3 509.7-.3 282.6 227.6 513.7 507.6 514.3 285 .7 516-227.3 516.4-509.6.3-282.5-227.7-513.6-507.7-514.4zm250.7 381.3c.3 5.6.3 11.4.3 16.9 0 173.9-132.4 374.4-374.3 374.4-71.5.1-141.5-20.5-201.7-59.1 10.2 1.3 20.8 1.8 31.3 1.8 61.6 0 118.3-21 163.5-56.4-56.3-1.1-105.7-37.8-123-91.4 19.7 3.8 40 3 59.4-2.3-61.4-12.4-105.5-66.4-105.5-129v-1.6c17.8 9.9 37.9 15.9 59.5 16.5-57.8-38.6-75.7-115.5-40.8-175.6 67 82.1 165.5 132.1 271.3 137.5-16.6-70.7 27.3-141.6 98-158.2 45.9-10.8 94.1 3.8 126.2 38.3 29.5-5.8 57.7-16.6 83.6-31.9-9.7 30.7-30.7 56.5-57.8 72.9 26.1-3.1 51.5-10.1 75.6-20.6-17.7 26.2-39.9 49.2-65.6 67.8z"></path>
+                                </svg> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/umbclife/" class="nav-link" aria-label="UMBC Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Instagram">
+                                    <g fill="var(--yellow)">
+                                        <path d="m512 611.7c55.1 0 99.7-44.7 99.7-99.7s-44.7-99.7-99.7-99.7-99.7 44.7-99.7 99.7 44.6 99.7 99.7 99.7z"></path>
+                                        <path d="m745.5 335.4c-4.8-13-12.4-24.8-22.4-34.4-9.7-9.9-21.5-17.6-34.5-22.4-10.5-4.1-26.4-9-55.6-10.2-31.5-1.4-41-1.7-121-1.7-79.9 0-89.3.3-121 1.7-29.1 1.3-45 6.2-55.6 10.2-13 4.8-24.8 12.4-34.4 22.4-10.4 10.4-16.9 20.5-22.4 34.4-4.1 10.6-9 26.4-10.2 55.6-1.4 31.5-1.7 41-1.7 121s.3 89.3 1.7 121c1.3 29.2 6.2 45 10.2 55.6 5.5 13.9 11.9 24.1 22.4 34.5 10.4 10.4 20.5 16.9 34.4 22.4 10.6 4.2 26.4 9 55.6 10.2 31.5 1.5 41 1.8 121 1.8 79.9 0 89.3-.3 121-1.7 29.2-1.3 45-6.3 55.6-10.2 13-4.8 24.8-12.4 34.5-22.4 10.4-10.4 16.9-20.5 22.4-34.5 4.1-10.5 9-26.4 10.2-55.6 1.4-31.5 1.7-41 1.7-121s-.3-89.3-1.7-121c-1.3-29.3-6.2-45.1-10.2-55.7zm-233.5 330.3c-84.9 1.5-155-66.1-156.5-151s66.1-155 151-156.5h5.6c84.9 1.6 152.4 71.7 150.9 156.6-1.6 82.7-68.3 149.4-151 150.9zm159.8-277.6c-19.8 0-35.8-16-35.8-35.8s16-35.8 35.8-35.8 35.8 16 35.8 35.8-16 35.8-35.8 35.8z"></path>
+                                        <path d="m512 0c-282.7 0-512 229.3-512 512s229.3 512 512 512 512-229.3 512-512-229.2-512-512-512zm297.6 635.4c-1.4 31.8-6.6 53.7-13.9 72.7-7.7 19.7-17.9 36.4-34.6 53-16.6 16.6-33.3 26.9-53 34.6-19 7.4-40.8 12.5-72.7 13.9-31.8 1.4-42.1 1.8-123.4 1.8-81.4 0-91.4-.4-123.5-1.8-31.8-1.4-53.6-6.6-72.7-13.9-19.7-7.7-36.3-17.9-52.9-34.6-15.2-14.9-27.1-33-34.6-53-7.3-19-12.5-40.9-13.9-72.7s-1.7-42.1-1.7-123.4c0-81.4.3-91.4 1.7-123.5 1.4-31.8 6.6-53.6 13.9-72.7 7.7-19.7 17.9-36.4 34.6-52.9 16.6-16.7 33.3-26.9 53-34.6 19-7.4 40.8-12.5 72.7-13.9 31.8-1.4 42.1-1.7 123.4-1.7 81.4 0 91.4.3 123.4 1.7 31.9 1.4 53.7 6.6 72.7 13.9 19.7 7.7 36.4 17.9 53 34.6 16.6 16.6 26.9 33.3 34.6 53 7.4 19 12.5 40.8 13.9 72.7 1.4 31.8 1.8 42.1 1.8 123.4 0 81.4-.3 91.6-1.8 123.4z"></path>
+                                    </g>
+                                </svg> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.youtube.com/user/UMBCtube/" class="nav-link" aria-label="UMBC Youtube">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Youtube">
+                                    <g fill="var(--yellow)">
+                                        <path d="m512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zm290.9 659.1c-7 26.3-27.5 47.1-53.6 54.1-47.4 12.8-237.2 12.8-237.2 12.8s-190.1 0-237.3-12.8c-26.3-7.1-46.7-27.8-53.6-54.1-12.6-47.7-12.6-147.1-12.6-147.1s0-99.4 12.6-147.1c7-26.2 27.5-47.1 53.6-54.1 47.5-12.8 237.3-12.8 237.3-12.8s190.1 0 237.3 12.8c26.1 7 46.7 27.6 53.6 54.1 12.6 47.7 12.6 147.1 12.6 147.1s0 99.4-12.7 147.1z"></path>
+                                        <path d="m449.8 602.3 158.8-90.3-158.8-90.3z"></path>
+                                    </g>
+                                </svg> </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="alt-links col-9 col-md-9 col-lg-6 offset-lg-1 offset-xl-1 col-xl-5">
+                    <ul class="d-flex mx-auto mb-2 mb-lg-0 fw-bold fw-bold text-center align-content-center">
+                        <li class="nav-item"><a class="nav-link yellow" href="#" target="_blank" rel="noopener noreferrer">Return Roadmap</a></li>
+                        <li class="nav-item"><a class="nav-link yellow" href="#" target="_blank" rel="noopener noreferrer">#UMBCtogether</a></li>
+                        <li class="nav-item"><a class="nav-link yellow" href="#" target="_blank" rel="noopener noreferrer">myUMBC</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="search-section col-3 col-md-3 col-lg-3 col-xl-4">
+                    <form class="pt-1 d-flex" role="search">
+                        <input class="d-none d-lg-inline-block form-control search-form me-2" type="search" placeholder="Search UMBC" aria-label="Search">
+                        <button class="btn btn-white btn-search" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewbox="-888 480 142 142" enable-background="new -888 480 142 142" xml:space="preserve">
+                                <path fill="var(--dark)" d="M-787.4,568.7h-6.3l-2.4-2.4c7.9-8.7,12.6-20.5,12.6-33.1c0-28.4-22.9-51.3-51.3-51.3  c-28.4,0-51.3,22.9-51.3,51.3c0,28.4,22.9,51.3,51.3,51.3c12.6,0,24.4-4.7,33.1-12.6l2.4,2.4v6.3l39.4,39.4l11.8-11.8L-787.4,568.7  L-787.4,568.7z M-834.7,568.7c-19.7,0-35.5-15.8-35.5-35.5c0-19.7,15.8-35.5,35.5-35.5c19.7,0,35.5,15.8,35.5,35.5  C-799.3,553-815,568.7-834.7,568.7L-834.7,568.7z"></path>
+                            </svg>
+                        </button>
+                        <ul id="search-resuls">
+                        </ul>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <nav class="navbar navbar-expand-lg bg-white d-flex justify-content-between">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="https://umbc.edu/"><img class="img-fluid" src="assets\imgs\umbc-primary-logo.png" alt="UMBC Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="main-nav navbar-nav fw-bold text-uppercase ms-0 ms-xl-2 ms-xl-5 text-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Arts &amp; Culture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Athletics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link black" href="#">Support UMBC</a>
+                        </li>
+
+
+                        <!-- Start mobile display only -->
+                        <button class="my-2 btn btn-yellow d-inline-block d-lg-none fw-bold" type="submit" style="max-width:300px;">
+                            Apply
+                        </button>
+                        <ul class="d-inline-flex d-lg-none list-mobile ps-0">
+                            <li class="nav-item">
+                                <a href="https://www.facebook.com/umbcpage" class="nav-link" aria-label="UMBC Facebook">
+                                    <svg style="width:30px; height:30px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewbox="0 0 1024 1024" role="img" aria-label="Facebook">
+                                        <path fill="var(--celadon)" d="M512,0C229.3,0,0,230.5,0,515c0,257.1,187.1,470.1,432,508.7V664.1H302V515.2h130V401.7	c0-129,76.3-200.4,193.4-200.4c56,0,114.6,10.1,114.6,10.1v126.8h-64.5c-63.6,0-83.5,39.7-83.5,80.4v96.7h142l-22.7,148.9H592V1024	c244.9-38.7,432-251.7,432-508.9C1024,230.7,794.7,0,512,0z"></path>
+                                    </svg> </a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://twitter.com/umbc" class="nav-link" aria-label="UMBC Twitter">
+                                    <svg style="width:30px; height:30px;" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Twitter">
+                                        <path fill="var(--celadon)" d="m516.3 0c-285-.6-516 227.4-516.3 509.7-.3 282.6 227.6 513.7 507.6 514.3 285 .7 516-227.3 516.4-509.6.3-282.5-227.7-513.6-507.7-514.4zm250.7 381.3c.3 5.6.3 11.4.3 16.9 0 173.9-132.4 374.4-374.3 374.4-71.5.1-141.5-20.5-201.7-59.1 10.2 1.3 20.8 1.8 31.3 1.8 61.6 0 118.3-21 163.5-56.4-56.3-1.1-105.7-37.8-123-91.4 19.7 3.8 40 3 59.4-2.3-61.4-12.4-105.5-66.4-105.5-129v-1.6c17.8 9.9 37.9 15.9 59.5 16.5-57.8-38.6-75.7-115.5-40.8-175.6 67 82.1 165.5 132.1 271.3 137.5-16.6-70.7 27.3-141.6 98-158.2 45.9-10.8 94.1 3.8 126.2 38.3 29.5-5.8 57.7-16.6 83.6-31.9-9.7 30.7-30.7 56.5-57.8 72.9 26.1-3.1 51.5-10.1 75.6-20.6-17.7 26.2-39.9 49.2-65.6 67.8z"></path>
+                                    </svg> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.instagram.com/umbclife/" class="nav-link" aria-label="UMBC Instagram">
+                                    <svg style="width:30px; height:30px;" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Instagram">
+                                        <g fill="var(--celadon)">
+                                            <path d="m512 611.7c55.1 0 99.7-44.7 99.7-99.7s-44.7-99.7-99.7-99.7-99.7 44.7-99.7 99.7 44.6 99.7 99.7 99.7z"></path>
+                                            <path d="m745.5 335.4c-4.8-13-12.4-24.8-22.4-34.4-9.7-9.9-21.5-17.6-34.5-22.4-10.5-4.1-26.4-9-55.6-10.2-31.5-1.4-41-1.7-121-1.7-79.9 0-89.3.3-121 1.7-29.1 1.3-45 6.2-55.6 10.2-13 4.8-24.8 12.4-34.4 22.4-10.4 10.4-16.9 20.5-22.4 34.4-4.1 10.6-9 26.4-10.2 55.6-1.4 31.5-1.7 41-1.7 121s.3 89.3 1.7 121c1.3 29.2 6.2 45 10.2 55.6 5.5 13.9 11.9 24.1 22.4 34.5 10.4 10.4 20.5 16.9 34.4 22.4 10.6 4.2 26.4 9 55.6 10.2 31.5 1.5 41 1.8 121 1.8 79.9 0 89.3-.3 121-1.7 29.2-1.3 45-6.3 55.6-10.2 13-4.8 24.8-12.4 34.5-22.4 10.4-10.4 16.9-20.5 22.4-34.5 4.1-10.5 9-26.4 10.2-55.6 1.4-31.5 1.7-41 1.7-121s-.3-89.3-1.7-121c-1.3-29.3-6.2-45.1-10.2-55.7zm-233.5 330.3c-84.9 1.5-155-66.1-156.5-151s66.1-155 151-156.5h5.6c84.9 1.6 152.4 71.7 150.9 156.6-1.6 82.7-68.3 149.4-151 150.9zm159.8-277.6c-19.8 0-35.8-16-35.8-35.8s16-35.8 35.8-35.8 35.8 16 35.8 35.8-16 35.8-35.8 35.8z"></path>
+                                            <path d="m512 0c-282.7 0-512 229.3-512 512s229.3 512 512 512 512-229.3 512-512-229.2-512-512-512zm297.6 635.4c-1.4 31.8-6.6 53.7-13.9 72.7-7.7 19.7-17.9 36.4-34.6 53-16.6 16.6-33.3 26.9-53 34.6-19 7.4-40.8 12.5-72.7 13.9-31.8 1.4-42.1 1.8-123.4 1.8-81.4 0-91.4-.4-123.5-1.8-31.8-1.4-53.6-6.6-72.7-13.9-19.7-7.7-36.3-17.9-52.9-34.6-15.2-14.9-27.1-33-34.6-53-7.3-19-12.5-40.9-13.9-72.7s-1.7-42.1-1.7-123.4c0-81.4.3-91.4 1.7-123.5 1.4-31.8 6.6-53.6 13.9-72.7 7.7-19.7 17.9-36.4 34.6-52.9 16.6-16.7 33.3-26.9 53-34.6 19-7.4 40.8-12.5 72.7-13.9 31.8-1.4 42.1-1.7 123.4-1.7 81.4 0 91.4.3 123.4 1.7 31.9 1.4 53.7 6.6 72.7 13.9 19.7 7.7 36.4 17.9 53 34.6 16.6 16.6 26.9 33.3 34.6 53 7.4 19 12.5 40.8 13.9 72.7 1.4 31.8 1.8 42.1 1.8 123.4 0 81.4-.3 91.6-1.8 123.4z"></path>
+                                        </g>
+                                    </svg> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.youtube.com/user/UMBCtube/" class="nav-link" aria-label="UMBC Youtube">
+                                    <svg style="width:30px; height:30px;" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024" role="img" aria-label="Youtube">
+                                        <g fill="var(--celadon)">
+                                            <path d="m512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zm290.9 659.1c-7 26.3-27.5 47.1-53.6 54.1-47.4 12.8-237.2 12.8-237.2 12.8s-190.1 0-237.3-12.8c-26.3-7.1-46.7-27.8-53.6-54.1-12.6-47.7-12.6-147.1-12.6-147.1s0-99.4 12.6-147.1c7-26.2 27.5-47.1 53.6-54.1 47.5-12.8 237.3-12.8 237.3-12.8s190.1 0 237.3 12.8c26.1 7 46.7 27.6 53.6 54.1 12.6 47.7 12.6 147.1 12.6 147.1s0 99.4-12.7 147.1z"></path>
+                                            <path d="m449.8 602.3 158.8-90.3-158.8-90.3z"></path>
+                                        </g>
+                                    </svg> </a>
+                            </li>
+                        </ul>
+                        <!-- End mobile display only -->
+
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main>
+        <section class="video">
+            <div class="ratio ratio-16x9 video-overlay">
+                <iframe src="https://player.vimeo.com/external/438600438.hd.mp4?s=fb25fceb31f640431ea06df1f2165b636e3eb490&profile_id=175" title="Video of campus" allowfullscreen></iframe>
+            </div>
+
+            <div class="position-relative">
+                <div class="d-block container-fluid v-section">
+                    <div class="row">
+
+                        <div class="v-text white col-12 col-lg-6 pe-lg-3">
+                            <h2 class="fw-bold">Earn a degree or certificate online with a schedule that works <span class="text-nowrap">for you.</span></h2>
+                            <p>Study anywhere with online courses and no-cost digital <span class="text-nowrap">course materials</span></p>
+
+                            <button class="mt-2 btn btn-white fw-bold text-uppercase" type="submit">
+                                Submit
+                            </button>
+                        </div>
+
+
+                        <div class="v-form bg-yellow col-12 col-lg-6 px-3 pt-3 pb-0 rounded">
+                            <h2 class="h3 mb-3 fw-bold text-uppercase">Get your questions answered</h2>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="bachelor">
+                                <label class="form-check-label" for="bachelor">
+                                    Bachelor's degree
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="master">
+                                <label class="form-check-label" for="master">
+                                    Master's degree
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="certificate">
+                                <label class="form-check-label" for="certificate">
+                                    Certificate
+                                </label>
+                            </div>
+
+                            <div class="row my-2">
+                                <div class="col">
+                                    <label for="firstName" class="form-label fw-bold">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="Your First Name">
+                                </div>
+                                <div class="col">
+                                    <label for="lastName" class="form-label fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Your Last Name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="emailAddress" class="form-label fw-bold">Email Address</label>
+                                    <input type="email" class="form-control" id="emailAddress" placeholder="Your Email Address">
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <div class="col">
+                                    <label for="zipCode" class="form-label fw-bold">Zip Code</label>
+                                    <input type="number" class="form-control" id="zipCode" placeholder="Your Zip Code">
+                                </div>
+                                <div class="col pt-4 d-grid gap-2">
+                                    <button class="mt-2 btn btn-white fw-bold text-uppercase" type="submit">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row my-2">
+                                <p class="fst-italic m-0 font-size-80">We value your privacy and will never share this information without <span class="text-nowrap">your consent.</span></p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="cards">
+            <div class="row container-fluid mx-auto">
+                <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                    <div class="card">
+                        <div class="bg-celadon p-2 text-start text-lg-center" style="border:2px solid var(--celadon);">
+                            <h3 class="h5 card-title m-0 rounded-bottom d-inline-block me-2">Featured Program</h3>
+                            <button id="card-btn-1" class="btn-close btn-close-white" type="button" aria-controls="online-ms-is" aria-expanded="false" aria-label="Toggle card navigation">
+                            </button>
+                        </div>
+                        <div class="card-body bg-light" id="online-ms-is">
+                            <p class="card-text text-center my-0 fw-bold"><span style="letter-spacing: -0.04rem;">Online M.S. in Information Systems</span></p>
+                            <figure class="mx-auto my-3 text-center">
+                                <img src="assets\imgs\card-img-1.jpg" alt="UMBC Logo" class="img-fluid" style="max-width:200px">
+                            </figure>
+                            <p class="card-text mb-0">Turn data into solutions, and get the skills and career you want. Join the only public university in Maryland with a nationally ranked graudate <span class="text-nowrap">online program.</span></p>
+
+                            <div class="text-center">
+                                <button class="mt-2 btn btn-yellow fw-bold text-uppercase" type="submit">
+                                    More on Information <span class="text-nowrap">Systems Degrees &rarr;</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                    <div class="card">
+                        <div class="bg-celadon p-2 text-start text-lg-center">
+                            <h3 class="h5 card-title m-0 d-inline-block me-2">Nationally Ranked</h3>
+                            <button id="card-btn-2" class="btn-close btn-close-white" type="button" aria-controls="national-rank" aria-expanded="false" aria-label="Toggle card navigation">
+                            </button>
+                        </div>
+                        <div class="card-body bg-light" id="national-rank">
+                            <figure class="mx-auto my-4 text-center">
+                                <img src="assets\imgs\card-img-2.png" alt="UMBC Logo" class="img-fluid">
+                            </figure>
+                            <p class="card-text">UMBC is ranked #7 nationally as an innovative university and #13 in <span class="text-nowrap">undergraduate teaching.</span></p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                    <div class="card">
+                        <div class="bg-celadon p-2 text-start text-lg-center">
+                            <h3 class="h5 card-title m-0 d-inline-block me-2">Registration Dates</h3>
+                            <button id="card-btn-3" class="btn-close btn-close-white" type="button" aria-controls="registration" aria-expanded="false" aria-label="Toggle card navigation">
+                            </button>
+                        </div>
+                        <div class="card-body bg-light py-4" id="registration">
+                            <p class="card-text mb-0 fw-bold mt-3 mt-lg-1">Fall 2020 Semester Final Registration Deadline</p>
+                            <p class="card-text text-muted mb-4 mb-lg-5">Tuesday, September 10, 2020</p>
+
+                            <p class="card-text mb-0 fw-bold">Winter 2021 Semester Registration Opens</p>
+                            <p class="card-text text-muted mb-4 mb-lg-5">Tuesday, November 10, 2020</p>
+
+                            <p class="card-text mb-0 fw-bold">Winter 2021 Semester Final Registration Deadline</p>
+                            <p class="card-text text-muted">Tuesday, January 10, 2021</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="container-fluid mt-3 mt-md-4 px-3 px-lg-5">
+            <div class="row">
+                <div class="mx-auto col-12 col-md-11 col-lg-6 col-xl-5 mb-4 mb-lg-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="rounded" src="https://www.youtube.com/embed/LxE7a6S-si4" title="Youtube testimonial"></iframe>
+                    </div>
+                </div>
+
+                <div class="mx-auto col-12 col-md-11 col-lg-5 offset-lg-1 offset-xl-2 mt-3 mt-md-0">
+                    <figure class="bg-light pb-2 px-3 rounded border">
+                        <blockquote class="blockquote">I cannot express how happy I am that I chose UMBC to obtain my master's degree. I was very impressed with all of the courses and professors. I learned a great deal that directly correlates to my job and will benefit from it now and <span class="text-nowrap">in the future.</span></blockquote>
+                        <figcaption class="blockquote-footer fw-bold mt-4 fs-5">Online M.S. Alumni, Neha Jha &rsquo;19</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="assets/scripts/suggestions.js"></script>
+    <script src="assets/scripts/scripts.js"></script>
+
+    <!-- BS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
